@@ -1,0 +1,43 @@
+    LEVEL 1
+
+CSS is the language we use to style a Web page.
+
+    CSS stands for Cascading Style Sheets
+    CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+    CSS saves a lot of work. It can control the layout of multiple web pages all at once
+    External stylesheets are stored in CSS files 
+
+Basic Syntax
+    h1 {
+        color : red
+    }
+
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+--> There are 3 ways to add css
+
+1. Inline CSS
+
+    <h1 style="color:red">My name is Rahul</h1>
+
+2. Internal CSS
+    Note: <style> Tag is always used in the <head> Tag
+    <head>
+        <style>
+            h1{
+                color:red
+            }
+        </style>
+    </head>
+
+3. External CSS
+    Note: To link the external file of the css (example: style.css), we write the code in the
+    head Tag
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
