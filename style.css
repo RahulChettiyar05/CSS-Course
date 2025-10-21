@@ -1,4 +1,35 @@
+body {
+    background-color: beige;
+}
+
 h1 {
     color:blueviolet;
+    text-align: center;
+}
+p {
+    color: brown;
+    text-align: center;
+}
+
+button {
+    color: brown;
+    text-align: center;
+}
+
+#headingtwo {
+    color:rgb(150, 55, 70);
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.color {
+    text-align: center;
+    color: cadetblue;
+}
+
+p1 {
     text-align: center;
 }
