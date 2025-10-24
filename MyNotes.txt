@@ -54,7 +54,7 @@ Multiple CSS declarations are separated with semicolons, and declaration blocks 
         background-color:red;
         background-color:pink;
 
-COLOR SYSTEMS
+#COLOR SYSTEMS
 
 --->RGB
     color: rgb(255,0,0)
@@ -98,3 +98,93 @@ COLOR SYSTEMS
     text-align: center;
     color: cadetblue;
 }
+
+#Text Properties
+
+1. text-align
+    The text-align property is used to set the horizontal alignment of a text.
+
+    This property can have one of the following values:
+
+    left - Aligns the text to the left
+    right - Aligns the text to the right
+    center - Centers the text
+    justify - Stretches the lines so that each line has equal width
+
+2. text-decoration
+    The CSS text-decoration property is used to control the appearance of decorative lines on text.
+
+    values
+    text-decoration : underline/overline/line-through/non
+
+    --> The CSS text-decoration-color property is used to set the color of the decoration line.
+
+    eg: text-decoration-color: red
+
+    --> The CSS text-decoration-style property is used to set the style of the decoration line.
+
+    This property can have one of the following values:
+
+        solid - Default value. Displays the line as a single line
+        double - Displays the line as a double line
+        dotted - Displays the line as a dotted line
+        dashed - Displays the line as a dashed line
+        wavy - Displays the line as a wavy line
+
+    eg: text-decoration-style: dashed;
+
+    --> The CSS text-decoration-thickness property is used to set the thickness of the decoration line.
+
+    eg: text-decoration-thickness: auto;
+        text-decoration-thickness: 5px;
+        text-decoration-thickness: 25%;
+
+    --> The Shorthand Property
+        The CSS text-decoration property is a shorthand property for:
+
+        text-decoration-line (required)
+        text-decoration-color (optional)
+        text-decoration-style (optional)
+        text-decoration-thickness (optional)
+
+        eg: text-decoration: underline red double 5px;
+
+CSS Text Transformation
+    The CSS text-transform property is used to control the capitalization of text in an element.
+
+    It can be used to transform a text into uppercase or lowercase letters, or capitalize the first letter of each word, without changing the original content in HTML.
+
+    This property can have one of the following values:
+
+    none - No transformation. Text renders as it is
+    capitalize - Transforms the first character of each word to uppercase
+    uppercase - Transforms all characters to uppercase
+    lowercase - Transforms all characters to lowercase
+
+    eg: text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capitalize;
+
+CSS Text Spacing
+    
+    CSS has several properties to control text spacing.
+
+    In this chapter you will learn about the following properties:
+
+    text-indent -       text-indent: 50px;
+    letter-spacing -    letter-spacing: 5px;
+    line-height -       line-height: 0.8;
+    word-spacing -      word-spacing: 10px;
+    
+CSS White Space
+    The CSS white-space property specifies how white-space inside an element is handled.
+
+    This property can have one of the following values:
+
+    normal
+    nowrap
+    pre
+    pre-line
+    pre-wrap
+
+    eg: white-space: nowrap;
