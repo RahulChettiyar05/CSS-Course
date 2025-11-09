@@ -87,3 +87,47 @@
     font-size: 1.2rem;
     color: #0f1111;  
 }
+
+/* Box 4 & Box 5*/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* Box 6 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops {
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
