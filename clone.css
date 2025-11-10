@@ -178,7 +178,7 @@ span {
     background-color: white;
 }
 
-/* asdada */
+/* box content */
 
 .box-image{
     height: 300px;
@@ -199,4 +199,17 @@ span {
 .box-content h2{
     margin-top: 6px;
     text-align: center;
+}
+
+/* footer */
+
+.foot-panel1{
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 13px;
+    
 }
