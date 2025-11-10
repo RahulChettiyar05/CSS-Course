@@ -39,7 +39,7 @@
 .add-first{
     color: #CCCCCC;
     font-size: 0.85rem;
-    margin-left: 15px;
+    margin-left: 23px;
 }
 
 .add-sec{
@@ -130,4 +130,32 @@ span {
 .panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+/* Heroposter */
+
+.heroimage {
+    background-image: url("pictures/Heroposter.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.heromsg a {
+    color: #007158;
 }
